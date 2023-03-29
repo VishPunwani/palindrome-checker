@@ -3,8 +3,12 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
 }
 
+body{
+    background-image: url(../photos/dd3jtpp-f81497e3-85af-4748-a2fd-240be498dabc.jpeg);
 
-  .box{
+}
+
+.box{
     display: flex;
     flex-direction: column;
     align-items: center;
