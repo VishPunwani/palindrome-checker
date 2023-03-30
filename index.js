@@ -8,9 +8,7 @@ let filterInput;
 
 
 checkButton.addEventListener("click", () => {
-    let reverseInput =
-        (filterInput === '') ? '' : reverseString(filterInput.substr(1)) + filterInput.charAt(0);
-
+    let reverseInput = filterInput.split("").reverse().join(" ");
     infoTxt.style.display = "block";
     if(filterInput != reverseInput) {
         return infoTxt.innerHTML = `No, <span>'${txtInput.value}'</span> isn't a palindrome!`;
